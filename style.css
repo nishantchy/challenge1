@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url("/images/pattern-background-desktop.svg");
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cont-item img{
+    
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem ;
+}
+.cont-item{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 29.2%;
+    margin: auto;
+    border-radius: 1rem;
+
+}
+.cont-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.cont-text p{
+    width: 50%;
+    margin: auto;
+    
+}
+.cont-bar{
+    border: 1px solid #fff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 0.6rem;
+    max-width: 50%;
+}
+.in-bar{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+}
+.in-bar3{
+    color: purple;
+}
+button{
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 10px 10px;
+}
+.footer-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
